@@ -11,9 +11,21 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+#universidades{
+  text-align: left;
+}
+#universidades p{
+  margin: 0;
+  padding:2px;  
+}
+#universidades h2{
+  text-align: center;
+}
+
 :root {
   scroll-behavior: smooth;
 }
+
 
 a {
   color: var(--color-links);
