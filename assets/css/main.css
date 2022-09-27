@@ -11,6 +11,24 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+/**
+  Mostrar el comité académico según el tamaño de la pantalla: 
+    3 columnas para pc
+    1 columna para celular
+**/
+@media only screen and (max-width: 799px) {  
+  .pc{
+    display:none;    
+  } 
+}
+
+@media only screen and (min-width:800px){
+  .celular{
+    display: none;
+  }
+
+  
+}
 #universidades{
   text-align: left;
 }
