@@ -27,9 +27,9 @@
     display: none;
   }    
 }
-@media only screen and (max-width: 400px) {  
-  .titulo{
-    font-size: 10%;
+@media only screen and (max-width: 480px) {  
+  #titulo{
+    font-size: 30px;
   }
 }
 
