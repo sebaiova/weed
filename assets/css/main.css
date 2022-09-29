@@ -16,16 +16,25 @@
     3 columnas para pc
     1 columna para celular
 **/
+.cuadro{
+  display:none;
+}
 @media only screen and (max-width: 799px) {  
   #pc{
     display:none;
   } 
+  #celular{
+    display:inline-block;
+  }
 }
 
 @media only screen and (min-width:800px){
   #celular{
     display: none;
-  }    
+  }
+  #pc{
+    display: inline-block;
+  }
 }
 @media only screen and (max-width: 480px) {  
   #titulo{
