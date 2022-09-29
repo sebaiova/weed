@@ -28,11 +28,7 @@
     display: none;
   }  
 }
-@media only screen and (max-width: 480px) {  
-  #titulo{
-    font-size: 30px;
-  }
-}
+
 
 #universidades{
   text-align: left;
@@ -1366,6 +1362,7 @@ section {
 @media (max-width: 992px) {
   .cta .container {
     padding: 60px;
+
   }
 }
 
