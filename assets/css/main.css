@@ -679,6 +679,14 @@ section {
   font-family: var(--font-secondary);
 }
 
+.btn-get-started {
+  white-space: nowrap;
+}
+
+div {
+  row-gap: 20px;
+}
+
 .hero-animated .btn-get-started:hover {
   background: rgba(var(--color-primary-rgb), 0.8);
 }
