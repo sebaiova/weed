@@ -16,6 +16,10 @@
     3 columnas para pc
     1 columna para celular
 **/
+#ul a{
+  white-space: normal;
+  word-wrap: break-word;
+}
 #celFP{
   padding:80px;
 }
