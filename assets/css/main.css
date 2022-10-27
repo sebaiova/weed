@@ -17,7 +17,7 @@
     1 columna para celular
 **/
 #celFP{
-  padding:40px 40px 20px 20px;
+  padding:80px;
 }
 .cel{
   padding-top: 25px;
@@ -47,7 +47,7 @@
 }
 #universidades p{
   margin: 0;
-  padding:2px;  
+  padding:2px;    
 }
 #universidades h2{
   text-align: center;
@@ -1387,6 +1387,9 @@ div {
   .container .content .titulo{
     font-size: 38px;
   }
+  #celFP{
+    padding:60px;
+  }
   
 }
 @media only screen and (max-width: 480px) {
@@ -1399,7 +1402,9 @@ div {
   #celular .row .titulo{
     font-size: 34px;
   }
-  
+  #celFP{
+    padding:40px 40px 20px 20px;
+  }
 } 
  
 
