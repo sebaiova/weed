@@ -16,7 +16,9 @@
     3 columnas para pc
     1 columna para celular
 **/
-
+#celFP{
+  padding:40px 40px 20px 20px;
+}
 .cel{
   padding-top: 25px;
 }
